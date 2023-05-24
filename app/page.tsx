@@ -5,13 +5,19 @@ import Hero from './components/Hero'
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Hero />
-      {/*about*/}
-      {/*experience*/}
-      {/*skills*/}
-      {/*projects*/}
-      {/*contact me*/}
+      <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
+        <Header />
+
+        <section id="hero" className="snap-center">
+          <Hero />
+        </section>
+
+        {/*about*/}
+        {/*experience*/}
+        {/*skills*/}
+        {/*projects*/}
+        {/*contact me*/}
+      </div>
     </main>
   )
 }
