@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 228, 240, 251;
+    --background-start-rgb: 27, 30, 40;
+    --background-end-rgb: 27, 30, 40;
   }
 }
 
@@ -24,4 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-[#506477] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#89ddff]/40 hover:text-[#89ddff]/40
+  }
 }
