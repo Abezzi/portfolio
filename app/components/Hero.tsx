@@ -9,12 +9,12 @@ import Link from 'next/link'
 const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
-      "option 1",
+      "Hello, my name is Alex",
       "option 2",
       "option 3",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 1000,
   })
 
   return (
@@ -32,10 +32,10 @@ const Hero = () => {
 
       <div className="z-20">
         {/*subtitle*/}
-        <h2 className="text-sm uppercase tracking-[15px]">Software Engineer</h2>
+        <h2 className="text-sm uppercase text-[#e4f0fb] tracking-[15px]">Software Engineer</h2>
 
         {/*title*/}
-        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
+        <h1 className="text-5xl lg:text-6xl text-[#5de4c7] font-semibold scroll-px-10">
           <span>{text}</span>
           <Cursor cursorColor="#89ddff" />
         </h1>

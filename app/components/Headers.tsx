@@ -25,7 +25,7 @@ const Headers = () => {
       >
         <SocialIcon
           url="http://github.com/abezzi"
-          fgColor="gray"
+          fgColor="#7390aa"
           bgColor="transparent"
         />
       </motion.div>
@@ -49,10 +49,10 @@ const Headers = () => {
         <SocialIcon
           className="cursor-pointer"
           network="email"
-          fgColor="gray"
+          fgColor="#7390aa"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">Contact me</p>
+        <p className="uppercase hidden md:inline-flex text-sm text-[#7390aa]">Contact me</p>
       </motion.div>
     </header>
   )

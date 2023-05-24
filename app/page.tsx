@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Header from './components/Headers'
 import Hero from './components/Hero'
+import About from './components/About'
 
 export default function Home() {
   return (
@@ -8,12 +9,14 @@ export default function Home() {
       <div className="text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
         <Header />
 
-        <section id="hero" className="snap-center">
+        <section id="hero" className="snap-start">
           <Hero />
         </section>
 
-        {/*about*/}
-        {/*experience*/}
+        <section id="about" className="snap-center">
+          <About />
+        </section>
+
         {/*skills*/}
         {/*projects*/}
         {/*contact me*/}

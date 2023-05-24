@@ -28,6 +28,6 @@ body {
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#506477] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#89ddff]/40 hover:text-[#89ddff]/40
+    @apply px-6 py-2 border border-[#506477] rounded-full uppercase text-sm tracking-widest text-[#7390aa] transition-all hover:border-[#89ddff]/40 hover:text-[#89ddff]/40
   }
 }
